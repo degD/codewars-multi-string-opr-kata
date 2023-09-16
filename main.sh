@@ -11,3 +11,9 @@ function reverse_string {
     str="$1"
     echo "$str" | rev 
 }
+
+# Test helper functions
+str="Hello, World!"
+echo "$str"
+inverted_case "$str"
+reverse_string "$str"
